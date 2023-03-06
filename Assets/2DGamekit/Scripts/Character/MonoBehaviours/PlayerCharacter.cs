@@ -17,6 +17,8 @@ namespace Gamekit2D
         {
             get { return m_InventoryController; }
         }
+        public CountMelee myMelee;
+        public GameObject abc;
 
         public SpriteRenderer spriteRenderer;
         public Damageable damageable;
@@ -742,7 +744,13 @@ namespace Gamekit2D
         }
 
         public void MeleeAttack()
+        
         {
+             if(myMelee==null){
+                    abc = GameObject.Find("Ellen");
+                myMelee=abc.GetComponent<CountMelee>();
+              }
+              myMelee.attack2();
             m_Animator.SetTrigger(m_HashMeleeAttackPara);
         }
 

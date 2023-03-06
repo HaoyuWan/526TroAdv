@@ -6,6 +6,8 @@ namespace Gamekit2D
 {
     public class Damager : MonoBehaviour
     {
+        
+        
         [Serializable]
         public class DamagableEvent : UnityEvent<Damager, Damageable>
         { }
@@ -14,7 +16,10 @@ namespace Gamekit2D
         [Serializable]
         public class NonDamagableEvent : UnityEvent<Damager>
         { }
-
+        
+        public CountSpike mySpike;
+        public CountMelee myMelee;
+        public GameObject abc;
         //call that from inside the onDamageableHIt or OnNonDamageableHit to get what was hit.
         public Collider2D LastHit { get { return m_LastHit; } }
 
@@ -35,14 +40,14 @@ namespace Gamekit2D
         public LayerMask hittableLayers;
         public DamagableEvent OnDamageableHit;
         public NonDamagableEvent OnNonDamageableHit;
-
+        
         protected bool m_SpriteOriginallyFlipped;
         protected bool m_CanDamage = true;
         protected ContactFilter2D m_AttackContactFilter;
         protected Collider2D[] m_AttackOverlapResults = new Collider2D[10];
         protected Transform m_DamagerTransform;
         protected Collider2D m_LastHit;
-
+        
         void Awake()
         {
             m_AttackContactFilter.layerMask = hittableLayers;
@@ -54,7 +59,9 @@ namespace Gamekit2D
 
             m_DamagerTransform = transform;
         }
-
+        void Start(){
+            mySpike=GetComponent<CountSpike>();
+        }
         public void EnableDamage()
         {
             m_CanDamage = true;
@@ -65,10 +72,31 @@ namespace Gamekit2D
             m_CanDamage = false;
         }
 
+         public void OnHitDamageable(Damager origin, Damageable damageable)
+        {
+              if(myMelee==null){
+                    abc = GameObject.Find("Ellen");
+                myMelee=abc.GetComponent<CountMelee>();
+              }
+              myMelee.ReduceWhenHit();
+              myMelee.attack1();
+        }
+        public void OnHitNonDamageable(Damager origin)
+        {
+               
+                
+            
+            
+        }
+
+  
         void FixedUpdate()
         {
-            if (!m_CanDamage)
+            if (!m_CanDamage){
+                
                 return;
+            }
+                
 
             Vector2 scale = m_DamagerTransform.lossyScale;
 
@@ -91,7 +119,13 @@ namespace Gamekit2D
                 if (damageable)
                 {
                     OnDamageableHit.Invoke(this, damageable);
-                    damageable.TakeDamage(this, ignoreInvincibility);
+                    if(mySpike!=null){
+                        damageable.TakeDamage(this,mySpike.name, ignoreInvincibility);
+                    }else{
+                        damageable.TakeDamage(this,"", ignoreInvincibility);
+                    }
+                    
+                     
                     if (disableDamageAfterHit)
                         DisableDamage();
                 }

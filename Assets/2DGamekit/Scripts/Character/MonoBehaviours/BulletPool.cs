@@ -3,10 +3,12 @@ using UnityEngine;
 
 namespace Gamekit2D
 {
+    
     public class BulletPool : ObjectPool<BulletPool, BulletObject, Vector2>
     {
+        
         static protected Dictionary<GameObject, BulletPool> s_PoolInstances = new Dictionary<GameObject, BulletPool>();
-
+        
         private void Awake()
         {
             //This allow to make Pool manually added in the scene still automatically findable & usable
@@ -43,7 +45,8 @@ namespace Gamekit2D
         public Rigidbody2D rigidbody2D;
         public SpriteRenderer spriteRenderer;
         public Bullet bullet;
-
+        public CountRange myBullet1;
+        public GameObject abc;
         protected override void SetReferences()
         {
             transform = instance.transform;
@@ -52,6 +55,9 @@ namespace Gamekit2D
             bullet = instance.GetComponent<Bullet>();
             bullet.bulletPoolObject = this;
             bullet.mainCamera = Object.FindObjectOfType<Camera> ();
+            abc = GameObject.Find("Ellen");
+            myBullet1=abc.GetComponent<CountRange>();
+            bullet.myBullet=myBullet1;
         }
 
         public override void WakeUp(Vector2 position)

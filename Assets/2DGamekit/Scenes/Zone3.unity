@@ -290,6 +290,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 719575892}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1 &18459884
@@ -5263,6 +5268,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &130915315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 752037600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &130915320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130915315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &134340220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5414,6 +5440,48 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 89.01456, y: 23.271885, z: 15.19852}
   m_Center: {x: 47.23757, y: 12.570515, z: -7.09926}
+--- !u!1 &153448682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 471203532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &153448687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153448682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
+--- !u!1 &163550720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1312778045}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &163550725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163550720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &169342829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5554,6 +5622,27 @@ Transform:
   m_Father: {fileID: 700869975}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &186070979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 950935571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &186070984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186070979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &222281160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5609,6 +5698,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1626220374}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &272999771
@@ -5735,6 +5829,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 28.893738, y: 41.1109, z: 32.474213}
   m_Center: {x: -13.946869, y: -16.838547, z: -15.737106}
+--- !u!1 &279252658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 2030527061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &279252663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279252658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &283459848
 GameObject:
   m_ObjectHideFlags: 0
@@ -26221,6 +26336,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1916210216}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &471203532
@@ -26278,6 +26398,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 153448687}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &489490154
@@ -27152,11 +27277,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
         type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1099656650}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
       propertyPath: offset.y
       value: 0.0036065578
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
+--- !u!1 &633994440 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 796276551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &633994445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633994440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &644670061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27556,6 +27707,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 683597be51f41bb4cbba59294cae8b30, type: 3}
+--- !u!1 &719575887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 9767433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &719575892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719575887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &722111202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27704,6 +27876,56 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: offsetBasedOnSpriteFacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 722111211}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnHitDamageable
+      objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gamekit2D.Damager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114680495344679792, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: initialPoolCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 722111217}
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
       propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.size
@@ -27790,6 +28012,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelDeath: Death3
+--- !u!114 &722111207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722111203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0adecad9b9a8a349adc68ad562f79bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelBulletHit: BulletHit3
+  levelBulletNoHit: BulletNoHit3
+--- !u!114 &722111211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+    type: 3}
+  m_PrefabInstance: {fileID: 722111202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722111203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &722111217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722111203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: Spike3
+  levelAcid: Acid3
+  name: 
+--- !u!114 &722111224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722111203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a78aed012c41743ba52e117ca3c9e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelMeleeHit: MeleeHit3
+  levelMeleeNoHit: MeleeNoHit3
+--- !u!114 &722111225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722111203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80ccd2501fa1a240b01e18d681eb7a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentKey: 0
+  Space: 0
 --- !u!1001 &722987526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27845,6 +28136,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1722952296}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &752037600
@@ -27902,6 +28198,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 130915320}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &763388833
@@ -28085,6 +28386,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 633994445}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &800931496
@@ -28142,8 +28448,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 881017539}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
+--- !u!1 &881017534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 800931496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &881017539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881017534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
+--- !u!1 &882392239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 2097080119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &882392244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882392239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &882897215
 GameObject:
   m_ObjectHideFlags: 0
@@ -28956,6 +29309,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 186070984}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &968012217
@@ -29015,6 +29373,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
+--- !u!1 &968012218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 968012217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &968012219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968012218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &986402650
 GameObject:
   m_ObjectHideFlags: 0
@@ -29311,6 +29690,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1477693269}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &1090314191
@@ -29394,6 +29778,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1090314191}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1099656645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 611427127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1099656650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099656645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &1123005982
 GameObject:
   m_ObjectHideFlags: 0
@@ -29799,6 +30204,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1322655557}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1 &1288708582
@@ -30078,6 +30488,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 163550725}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &1316802444
@@ -30322,6 +30737,27 @@ PrefabInstance:
       objectReference: {fileID: 2072243499}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c5c56d99c9e194db056e41d8b8f99b, type: 3}
+--- !u!1 &1322655552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1269930681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1322655557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322655552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &1332909332
 GameObject:
   m_ObjectHideFlags: 0
@@ -35391,6 +35827,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1420408346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1651564771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1420408351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420408346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &1421196365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35626,6 +36083,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1477693264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1082441713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1477693269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477693264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &1521680618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35794,6 +36272,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 2012699984}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!198 &1540921391 stripped
@@ -35843,6 +36326,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e97833b7c43abc418eeee08d291ea3f, type: 3}
+--- !u!1 &1591587840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1647065146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1591587845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591587840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &1602439615
 GameObject:
   m_ObjectHideFlags: 0
@@ -36041,6 +36545,27 @@ Transform:
   m_Father: {fileID: 331004702}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1626220369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 222281160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1626220374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626220369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &1636157900
 GameObject:
   m_ObjectHideFlags: 0
@@ -36207,6 +36732,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1591587845}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &1651564771
@@ -36264,6 +36794,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1420408351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1 &1685367156
@@ -36575,6 +37110,27 @@ Transform:
   m_Father: {fileID: 331004702}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1722952291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 722987526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1722952296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722952291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &1724459808
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48637,6 +49193,27 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1739837431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1842667689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1739837436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739837431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &1842667689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48692,6 +49269,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1739837436}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1 &1905959385
@@ -49018,6 +49600,27 @@ Transform:
   m_Father: {fileID: 700869975}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1916210211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 434156654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1916210216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916210211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1001 &1936593458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49458,6 +50061,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 405709577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2012699979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+    type: 3}
+  m_PrefabInstance: {fileID: 1538704209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2012699984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012699979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelSpike: 
+  levelAcid: 
+  name: Spike
 --- !u!1 &2013436684
 GameObject:
   m_ObjectHideFlags: 0
@@ -49669,6 +50293,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 279252663}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &2039951393
@@ -49935,6 +50564,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.252
       objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.1
+      objectReference: {fileID: 0}
     - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
         type: 3}
       propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
@@ -50093,6 +50742,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.2292
       objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 60369709880363736, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.1
+      objectReference: {fileID: 0}
     - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
         type: 3}
       propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
@@ -50171,6 +50840,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
+        type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 882392244}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1001 &2119471707
