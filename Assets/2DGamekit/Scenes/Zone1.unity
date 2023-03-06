@@ -30138,6 +30138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
+      propertyPath: mySpike
+      value: 
+      objectReference: {fileID: 1141565063}
+    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
       propertyPath: myDamage
       value: 
       objectReference: {fileID: 1141565047}

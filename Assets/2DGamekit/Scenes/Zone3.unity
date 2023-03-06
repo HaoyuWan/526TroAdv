@@ -27928,6 +27928,16 @@ PrefabInstance:
       objectReference: {fileID: 722111217}
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
+      propertyPath: myDamage
+      value: 
+      objectReference: {fileID: 722111205}
+    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: myDeathRecord
+      value: 
+      objectReference: {fileID: 722111206}
+    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
       propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}

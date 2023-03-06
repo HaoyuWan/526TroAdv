@@ -26,14 +26,14 @@ public class CountSpike : MonoBehaviour
       if(n=="Spike"){
             spikeNum ++;
         Debug.Log(n+" hit: " + spikeNum );
-        x= spikeNum + PlayerPrefs.GetInt(levelSpike, 0);
+        x= 1 + PlayerPrefs.GetInt(levelSpike, 0);
         PlayerPrefs.SetInt(levelSpike, x);
     }
     if(n== "Acid"){
          acidNum++;
          Debug.Log(n+" hit: " + acidNum );
-         x= acidNum + PlayerPrefs.GetInt(levelAcid, 0);
-        PlayerPrefs.SetInt(levelSpike, x);
+         x= 1 + PlayerPrefs.GetInt(levelAcid, 0);
+        PlayerPrefs.SetInt(levelAcid, x);
       }
    }
       
