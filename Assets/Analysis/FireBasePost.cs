@@ -47,8 +47,35 @@ public class FireBasePost : MonoBehaviour
         myRestClienMessager.Post("Enemy", PlayerPrefs.GetInt("Enemy3", 0) + "", 3);
         myRestClienMessager.Post("Enemy", PlayerPrefs.GetInt("Enemy4", 0) + "", 4);
 
-
+        myRestClienMessager.Post("Spike", PlayerPrefs.GetInt("Spike1", 0) + "", 1);
+        myRestClienMessager.Post("Spike", PlayerPrefs.GetInt("Spike2", 0) + "", 2);
+        myRestClienMessager.Post("Spike", PlayerPrefs.GetInt("Spike3", 0) + "", 3);
+        myRestClienMessager.Post("Spike", PlayerPrefs.GetInt("Spike4", 0) + "", 4);
         
+        myRestClienMessager.Post("Acid", PlayerPrefs.GetInt("Acid1", 0) + "", 1);
+        myRestClienMessager.Post("Acid", PlayerPrefs.GetInt("Acid2", 0) + "", 2);
+        myRestClienMessager.Post("Acid", PlayerPrefs.GetInt("Acid3", 0) + "", 3);
+        myRestClienMessager.Post("Acid", PlayerPrefs.GetInt("Acid4", 0) + "", 4);
+
+         myRestClienMessager.Post("MeleeHit", PlayerPrefs.GetInt("MeleeHit1", 0) + "", 1);
+        myRestClienMessager.Post("MeleeHit", PlayerPrefs.GetInt("MeleeHit2", 0) + "", 2);
+        myRestClienMessager.Post("MeleeHit", PlayerPrefs.GetInt("MeleeHit3", 0) + "", 3);
+        myRestClienMessager.Post("MeleeHit", PlayerPrefs.GetInt("MeleeHit4", 0) + "", 4);
+        
+        myRestClienMessager.Post("MeleeNoHit", PlayerPrefs.GetInt("MeleeNoHit1", 0) + "", 1);
+        myRestClienMessager.Post("MeleeNoHit", PlayerPrefs.GetInt("MeleeNoHit2", 0) + "", 2);
+        myRestClienMessager.Post("MeleeNoHit", PlayerPrefs.GetInt("MeleeNoHit3", 0) + "", 3);
+        myRestClienMessager.Post("MeleeNoHit", PlayerPrefs.GetInt("MeleeNoHit4", 0) + "", 4);
+
+         myRestClienMessager.Post("BulletHit", PlayerPrefs.GetInt("BulletHit1", 0) + "", 1);
+        myRestClienMessager.Post("BulletHit", PlayerPrefs.GetInt("BulletHit2", 0) + "", 2);
+        myRestClienMessager.Post("BulletHit", PlayerPrefs.GetInt("BulletHit3", 0) + "", 3);
+        myRestClienMessager.Post("BulletHit", PlayerPrefs.GetInt("BulletHit4", 0) + "", 4);
+        
+        myRestClienMessager.Post("BulletNoHit", PlayerPrefs.GetInt("BulletNoHit1", 0) + "", 1);
+        myRestClienMessager.Post("BulletNoHit", PlayerPrefs.GetInt("BulletNoHit2", 0) + "", 2);
+        myRestClienMessager.Post("BulletNoHit", PlayerPrefs.GetInt("BulletNoHit3", 0) + "", 3);
+        myRestClienMessager.Post("BulletNoHit", PlayerPrefs.GetInt("BulletNoHit4", 0) + "", 4);
 
         myRestClienMessager.Post("FinishTime", "", 0);
 

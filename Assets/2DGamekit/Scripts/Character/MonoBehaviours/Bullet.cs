@@ -17,7 +17,8 @@ namespace Gamekit2D
         public BulletObject bulletPoolObject;
         [HideInInspector]
         public Camera mainCamera;
-
+        public CountRange myBullet;
+        public GameObject abc;
         protected SpriteRenderer m_SpriteRenderer;
         static readonly int VFX_HASH = VFXController.StringToHash("BulletImpact");
 
@@ -27,12 +28,21 @@ namespace Gamekit2D
 
         private void OnEnable()
         {
+              if(myBullet==null){
+                    abc = GameObject.Find("Ellen");
+                myBullet=abc.GetComponent<CountRange>();
+                
+            }
+            myBullet.shoot2();
+            
             m_SpriteRenderer = GetComponent<SpriteRenderer>();
             m_Timer = 0.0f;
         }
 
         public void ReturnToPool ()
         {
+            
+       
             bulletPoolObject.ReturnToPool ();
         }
 
@@ -59,12 +69,18 @@ namespace Gamekit2D
         }
 
         public void OnHitDamageable(Damager origin, Damageable damageable)
+
         {
+             myBullet.ReduceShootWhenHit();
+               myBullet.shoot1();
             FindSurface(origin.LastHit);
         }
 
         public void OnHitNonDamageable(Damager origin)
         {
+               
+                
+           
             FindSurface(origin.LastHit);
         }
 

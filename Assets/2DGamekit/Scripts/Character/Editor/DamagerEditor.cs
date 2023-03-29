@@ -9,7 +9,8 @@ namespace Gamekit2D
     {
         static BoxBoundsHandle s_BoxBoundsHandle = new BoxBoundsHandle();
         static Color s_EnabledColor = Color.green + Color.grey;
-
+        
+        SerializedProperty m_SpikeProp;
         SerializedProperty m_DamageProp;
         SerializedProperty m_OffsetProp;
         SerializedProperty m_SizeProp;
@@ -24,6 +25,7 @@ namespace Gamekit2D
 
         void OnEnable ()
         {
+            m_SpikeProp=serializedObject.FindProperty ("mySpike");
             m_DamageProp = serializedObject.FindProperty ("damage");
             m_OffsetProp = serializedObject.FindProperty("offset");
             m_SizeProp = serializedObject.FindProperty("size");
@@ -40,7 +42,7 @@ namespace Gamekit2D
         public override void OnInspectorGUI ()
         {
             serializedObject.Update ();
-
+            EditorGUILayout.PropertyField(m_SpikeProp);
             EditorGUILayout.PropertyField(m_DamageProp);
             EditorGUILayout.PropertyField(m_OffsetProp);
             EditorGUILayout.PropertyField(m_SizeProp);
