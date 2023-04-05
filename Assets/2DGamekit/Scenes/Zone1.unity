@@ -21068,46 +21068,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: mySpike
-      value: 
-      objectReference: {fileID: 2011145383}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2011145383}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: attack
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CountSpike, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1 &685046222
@@ -21339,34 +21299,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: mySpike
-      value: 
-      objectReference: {fileID: 709621122}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
---- !u!1 &709621121 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-    type: 3}
-  m_PrefabInstance: {fileID: 709621120}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &709621122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709621121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSpike: 
-  levelAcid: 
-  name: Spike
 --- !u!1 &731673002
 GameObject:
   m_ObjectHideFlags: 0
@@ -21760,39 +21694,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &775395911 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-    type: 3}
-  m_PrefabInstance: {fileID: 1800712382}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &775395912 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-    type: 3}
-  m_PrefabInstance: {fileID: 1800712382}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775395911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &775395916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775395911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSpike: 
-  levelAcid: 
-  name: Spike
 --- !u!1 &777705810
 GameObject:
   m_ObjectHideFlags: 0
@@ -30053,7 +29954,7 @@ PrefabInstance:
     - target: {fileID: 82254963334231982, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
       propertyPath: m_Volume
-      value: 0.145
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 82254963334231982, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
@@ -30070,87 +29971,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1141565045}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11500000, guid: 20f916c2dfd5f3b47bc8cf6ae8d8452e,
-        type: 3}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114460243114916098, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114680495344679792, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: initialPoolCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734347468151670, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: MeleeAttack.m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114734347468151670, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: RangedAttack.m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: mySpike
-      value: 
-      objectReference: {fileID: 1141565063}
-    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: myDamage
-      value: 
-      objectReference: {fileID: 1141565047}
-    - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-        type: 3}
-      propertyPath: myDeathRecord
-      value: 
-      objectReference: {fileID: 1141565048}
     - target: {fileID: 114774311958850474, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
         type: 3}
       propertyPath: OnHealthSet.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -30202,63 +30022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelDeath: Death1
---- !u!114 &1141565049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141565045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c80ccd2501fa1a240b01e18d681eb7a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentKey: 0
-  Space: 0
---- !u!114 &1141565061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141565045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0adecad9b9a8a349adc68ad562f79bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelBulletHit: BulletHit1
-  levelBulletNoHit: BulletNoHit1
---- !u!114 &1141565063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141565045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSpike: Spike1
-  levelAcid: Acid1
-  name: 
---- !u!114 &1141565075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1141565045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a78aed012c41743ba52e117ca3c9e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelMeleeHit: MeleeHit1
-  levelMeleeNoHit: MeleeNoHit1
 --- !u!1 &1160148792
 GameObject:
   m_ObjectHideFlags: 0
@@ -41479,34 +41242,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: mySpike
-      value: 
-      objectReference: {fileID: 1683257590}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
---- !u!1 &1683257589 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-    type: 3}
-  m_PrefabInstance: {fileID: 1683257588}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1683257590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683257589}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSpike: 
-  levelAcid: 
-  name: Spike
 --- !u!1 &1713406626
 GameObject:
   m_ObjectHideFlags: 0
@@ -47094,86 +46831,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: mySpike
-      value: 
-      objectReference: {fileID: 775395916}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: ignoreInvincibility
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 775395912}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 775395916}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Count
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: attack
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Gamekit2D.Damager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CountSpike, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: OnNonDamageableHit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
 --- !u!1 &1817289408
@@ -48821,27 +48478,6 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
---- !u!1 &2011145378 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-    type: 3}
-  m_PrefabInstance: {fileID: 673857962}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2011145383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011145378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSpike: 
-  levelAcid: 
-  name: Spike
 --- !u!1 &2021418632
 GameObject:
   m_ObjectHideFlags: 0
@@ -49332,34 +48968,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114793837149260334, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-        type: 3}
-      propertyPath: mySpike
-      value: 
-      objectReference: {fileID: 2118258788}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ff9f7a332b4ae44bb62aaee6eacc033, type: 3}
---- !u!1 &2118258787 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1065201289290768, guid: 4ff9f7a332b4ae44bb62aaee6eacc033,
-    type: 3}
-  m_PrefabInstance: {fileID: 2118258786}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2118258788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118258787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfdb08f3b7eefd45be49267c902899f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelSpike: 
-  levelAcid: 
-  name: Spike
 --- !u!1 &2140181349
 GameObject:
   m_ObjectHideFlags: 0

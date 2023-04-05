@@ -44,9 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySpike: {fileID: 0}
-  myMelee: {fileID: 0}
-  abc: {fileID: 0}
   damage: 1
   offset: {x: 0.25, y: 0.22}
   size: {x: 0.88, y: 0.93}
@@ -257,9 +254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySpike: {fileID: 0}
-  myMelee: {fileID: 0}
-  abc: {fileID: 0}
   damage: 1
   offset: {x: 0, y: 0.5}
   size: {x: 1.4, y: 1}
@@ -1094,7 +1088,6 @@ MonoBehaviour:
   myKilled: {fileID: 0}
   myDeathRecord: {fileID: 0}
   myDamage: {fileID: 0}
-  mySpike: {fileID: 0}
   startingHealth: 1
   invulnerableAfterDamage: 1
   invulnerabilityDuration: 2
