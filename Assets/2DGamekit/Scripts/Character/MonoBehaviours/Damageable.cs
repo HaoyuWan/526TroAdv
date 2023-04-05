@@ -21,8 +21,6 @@ namespace Gamekit2D
         public EnemyKilled myKilled;
         public DeathRecord myDeathRecord;
         public DamageLevel myDamage;
-        public CountSpike mySpike;
-
         public int startingHealth = 5;
         public bool invulnerableAfterDamage = true;
         public float invulnerabilityDuration = 3f;
@@ -51,8 +49,6 @@ namespace Gamekit2D
             myDamage = GetComponent<DamageLevel>();
             myDeathRecord = GetComponent<DeathRecord>();
             myKilled = GetComponent<EnemyKilled>();
-            mySpike=GetComponent<CountSpike>();
-          
         }
 
         void OnEnable()
@@ -100,7 +96,7 @@ namespace Gamekit2D
             return m_DamageDirection;
         }
 
-        public void TakeDamage(Damager damager, string name="",bool ignoreInvincible = false)
+        public void TakeDamage(Damager damager, bool ignoreInvincible = false)
         {
             if ((m_Invulnerable && !ignoreInvincible) || m_CurrentHealth <= 0)
                 return;
@@ -112,13 +108,6 @@ namespace Gamekit2D
                 if(myDamage != null){
                     myDamage.takeDamage(damager.damage);
                 }
-                if(name=="Spike"){
-                    mySpike.attack("Spike");
-                }
-                if(name=="Acid"){
-                    mySpike.attack("Acid");
-                }
-            
                 
                 m_CurrentHealth -= damager.damage;
                 OnHealthSet.Invoke(this);
