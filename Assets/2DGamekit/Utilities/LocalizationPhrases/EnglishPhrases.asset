@@ -15,10 +15,9 @@ MonoBehaviour:
   language: English
   phrases:
   - key: INFOPOST1
-    value: "\u201CLet\u2019s use A and D for left and right, SPACE to jump and S
-      to crouch\u201D"
+    value: "\u201CA and D: left and right;  PRESS SPACE:  jump;  HOLDING SPACE: 
+      jump higher;  S:  crouch\u201D"
   - key: INFOPOST2
     value: "\u201CDifferent underfoot! Try S and SPACE at the same time\u201D "
   - key: INFOPOST3
-    value: "\"Use K to hit and O to shoot. Let\u2019s try it on this innocent looking
-      wall.And also you can defeat enemy!\u201D"
+    value: "\"Use K to hit and O to shoot. K to HIT the wall and O to SHOOT trigger\u201D"
