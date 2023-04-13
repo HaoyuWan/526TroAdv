@@ -15,9 +15,8 @@ MonoBehaviour:
   language: English
   phrases:
   - key: INFOPOST1
-    value: "\u201CA and D: left and right;  PRESS SPACE:  jump;  HOLDING SPACE: 
-      jump higher;  S:  crouch\u201D"
+    value: 'A: Left      D: Right     S:Crouch'
   - key: INFOPOST2
-    value: "\u201CDifferent underfoot! Try S and SPACE at the same time\u201D "
+    value: 'Holding Space: Jump Higher'
   - key: INFOPOST3
-    value: "\"Get ready for enemies? Use K to hit and O to shoot.\u201D"
+    value: Get ready for enemies? Use K to hit and O to shoot.
